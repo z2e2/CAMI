@@ -22,7 +22,7 @@ make
 ```
 
 ## Run CAMI II Challenge
-**Note: NBC++ is developed for both computing cluster and local computer but it will run much faster on computer cluster with parallelization. **
+**Note: NBC++ is developed for both computing cluster and local computer but it will run much faster on computer cluster with parallelization.**
 **In our case, we used [UNIVERSITY RESEARCH COMPUTING FACILITY](https://drexel.edu/research/urcf/) available at Drexel University. But all the job scripts can be adopted and run on other similar computing clusters**
 
 1. We used our own database to train the NBC++ for CAMI II Challenge, the assembly_summary file and taxonomic tree is available in database_download directory. You can use `pipeline_1_download.sh` to download the data.
