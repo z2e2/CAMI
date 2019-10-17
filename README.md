@@ -27,3 +27,14 @@ make
 
 1. We used our own database to train the NBC++ for CAMI II Challenge, the assembly_summary file and taxonomic tree is available in database_download directory. You can use `pipeline_1_download.sh` to download the data.
 
+2. Train the model by pipeline_3 and pipeline_4 (change the path accordingly).
+
+3. Use pipeline_5_classify_run_all.sh to submit array jobs to classify a sample in parallel.
+
+4. formatting can be taken care of by pipeline6-8.    
+The raw output from pipeline 6:
+```
+readid1\ttaxid1
+readid2\ttaxid2
+...
+```
