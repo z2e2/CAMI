@@ -29,7 +29,7 @@ make
 
 2. Train the model by pipeline_3 and pipeline_4 (change the path accordingly).
 
-3. There are two files need to be created before classifying any samples. The kmer.txt file should contain the k-mer size of NBC++. I suggest you to run ```echo 15 > kmer.txt``` command to create this file. The file_init.txt should contain the sample file you want to classify. For example, if you want to classify sample s4 in marine challenge. Then you can specify the filename (the tar file of shortreads sample 4 file in marine challenge) in file_init.txt. Let's say it's "/home/data/marine/s4.gz". Then you can run command "echo /home/data/marine/s4.gz > file_init.txt" to create the file_init.txt file. This file basically specify the filename of sample to classify (and assuming it's *.gz). 
+3. There are two files need to be created before classifying any samples. The kmer.txt file should contain the k-mer size of NBC++. I suggest you to run ```echo 15 > kmer.txt``` command to create this file. The file_init.txt should contain the name of sample file you want to classify. For example, if you want to classify sample s4 in marine challenge. Then you can specify the filename (the tar file of shortreads sample 4 file in marine challenge) in file_init.txt. Let's say it's "s4.gz" (you can put the file to classify in the repo directory). Then you can run command "echo s4.gz > file_init.txt" to create the file_init.txt file. This file basically specify the filename of sample to classify (and assuming it's *.gz). 
 
 4. Use pipeline_5_classify_run_all.sh to submit array jobs to classify a sample in parallel.
 
